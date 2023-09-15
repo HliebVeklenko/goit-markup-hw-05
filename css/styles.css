@@ -636,6 +636,7 @@ button {
 
 .email-cont-btn-svg {
   fill: white;
+  margin-left: 16px;
 }
 
 .footer-form {
