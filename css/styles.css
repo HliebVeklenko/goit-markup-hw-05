@@ -632,6 +632,11 @@ button {
   fill: white;
 }
 
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
 /*Backdrop with modal window*/
 
 .backdrop {
