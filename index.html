@@ -392,8 +392,83 @@
                     </li>
                 </ul>
             </div>
+            <div class="email-cont">
+                <form action="">
+                    <p class="email-cont-text">Subscribe</p>
+                    <input class="email-cont-input" type="text" name="email_footer" placeholder="E-mail">
+                    <button class="email-cont-btn">Subscribe <svg class="email-cont-btn-svg" width="24px" height="24px">
+                            <use href="./images/icons.svg#icon-paper-plane"></use>
+                        </svg></button>
+                </form>
+            </div>
         </div>
     </footer>
+
+    <!-- Backdrop with modal window-->
+
+    <div class="backdrop">
+        <div class="modal">
+            <svg class="icon-close-svg-bg">
+                <use href="./images/icons.svg#icon-close-svg-bg"></use>
+            </svg>
+            <button class="close-button">
+                <svg class="close-svg">
+                    <use href=" ./images/icons.svg#icon-close"></use>
+                </svg>
+
+            </button>
+            <p class="modal-cont-text">Leave your contacts and we will call you back</p>
+            <form>
+                <!--Inputs-->
+                <label class="model-form-input-label">Name
+                    <div class="form-input-cont">
+                        <input class="model-form-input" name="model_name_input" type="text">
+                        <svg class="model-form-input-svg">
+                            <use href="./images/icons.svg#icon-person"></use>
+                        </svg>
+                    </div>
+                </label>
+
+                <label class="model-form-input-label">Phone
+                    <div class="form-input-cont">
+                        <input class="model-form-input" name="model_tel_input" type="tel">
+                        <svg class="model-form-input-svg">
+                            <use href="./images/icons.svg#icon-phone"></use>
+                        </svg>
+                    </div>
+                </label>
+
+                <label class="model-form-input-label">Email
+                    <div class="form-input-cont">
+                        <input class="model-form-input" name="model_email_input" type="email">
+                        <svg class="model-form-input-svg">
+                            <use href="./images/icons.svg#icon-email"></use>
+                        </svg>
+                    </div>
+                </label>
+                <label class="model-form-input-label">Comment
+                    <textarea class="model-form-textarea" name="model_comment_input"
+                        placeholder="Text input"></textarea>
+                </label>
+                <!--Privacy Policy-->
+                <label class="model-cont-checkbox-text">
+                    <input type="checkbox" class="model-cont-checkbox"></input>
+                    <span class="model-form-checkbox-border">
+                        <svg class="model-form-checkbox-agreed-svg" width="16px" height="16px">
+                            <use href="./images/icons.svg#icon-agreed-mark"></use>
+                        </svg>
+                    </span>
+                    <!-- <svg class="model-form-checkbox-border-svg" width="16px" height="16px">
+                        <use href="./images/icons.svg#icon-checkbox-border"></use>
+                    </svg> -->
+                    I accept the terms and conditions of the
+                    <span class="model-cont-checkbox-text-span">Privacy Policy</span>
+
+                </label>
+                <button class="model-form-btn"><span class="button-form-span">Send</span></button>
+            </form>
+        </div>
+    </div>
 
 </body>
 
