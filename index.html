@@ -393,8 +393,8 @@
                 </ul>
             </div>
             <div class="email-cont">
+                <p class="email-cont-text">Subscribe</p>
                 <form>
-                    <p class="email-cont-text">Subscribe</p>
                     <input class="email-cont-input" type="text" name="email_footer" placeholder="E-mail">
                     <button class="email-cont-btn">Subscribe <svg class="email-cont-btn-svg" width="24px" height="24px">
                             <use href="./images/icons.svg#icon-paper-plane"></use>
@@ -420,44 +420,39 @@
             <p class="modal-cont-text">Leave your contacts and we will call you back</p>
             <form>
                 <!--Inputs-->
-                <div class="form-input-cont">
-                    <label class="model-form-input-label">Name
-
+                <label class="model-form-input-label">Name
+                    <div class="form-input-cont">
                         <input class="model-form-input" name="model_name_input" type="text">
                         <svg class="model-form-input-svg">
                             <use href="./images/icons.svg#icon-person"></use>
                         </svg>
-                    </label>
-                </div>
+                    </div>
+                </label>
 
-                <div class="form-input-cont">
-                    <label class="model-form-input-label">Phone
-
+                <label class="model-form-input-label">Phone
+                    <div class="form-input-cont">
                         <input class="model-form-input" name="model_tel_input" type="tel">
                         <svg class="model-form-input-svg">
                             <use href="./images/icons.svg#icon-phone"></use>
                         </svg>
+                    </div>
+                </label>
 
-                    </label>
-                </div>
-
-                <div class="form-input-cont">
-                    <label class="model-form-input-label">Email
+                <label class="model-form-input-label">Email
+                    <div class="form-input-cont">
                         <input class="model-form-input" name="model_email_input" type="email">
                         <svg class="model-form-input-svg">
                             <use href="./images/icons.svg#icon-email"></use>
                         </svg>
-
-                    </label>
-                </div>
-
+                    </div>
+                </label>
                 <label class="model-form-input-label">Comment
                     <textarea class="model-form-textarea" name="model_comment_input"
                         placeholder="Text input"></textarea>
                 </label>
                 <!--Privacy Policy-->
                 <label class="model-cont-checkbox-text">
-                    <input type="checkbox" class="model-cont-checkbox"></input>
+                    <input type="checkbox" class="model-cont-checkbox visually-hidden">
                     <span class="model-form-checkbox-border">
                         <svg class="model-form-checkbox-agreed-svg" width="16px" height="16px">
                             <use href="./images/icons.svg#icon-agreed-mark"></use>
@@ -467,7 +462,7 @@
                         <use href="./images/icons.svg#icon-checkbox-border"></use>
                     </svg> -->
                     I accept the terms and conditions of the
-                    <span class="model-cont-checkbox-text-span">Privacy Policy</span>
+                    <a class="model-cont-checkbox-text-span" href="">Privacy Policy</a>
 
                 </label>
                 <button class="model-form-btn"><span class="button-form-span">Send</span></button>
