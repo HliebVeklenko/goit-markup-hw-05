@@ -418,38 +418,39 @@
             </svg> -->
             <button class="close-button" type="button">
                 <svg class="close-svg" width="8" height="8">
-                    <use href=" ./images/icons.svg#icon-close"></use>
+                    <use href="./images/icons.svg#icon-close"></use>
                 </svg>
             </button>
             <p class="modal-cont-text">Leave your contacts and we will call you back</p>
             <form>
                 <!--Inputs-->
-                <label class="model-form-input-label">Name
-                    <div class="form-input-cont">
-                        <input class="model-form-input" name="model_name_input" type="text">
-                        <svg class="model-form-input-svg">
-                            <use href="./images/icons.svg#icon-person"></use>
-                        </svg>
-                    </div>
-                </label>
 
-                <label class="model-form-input-label">Phone
-                    <div class="form-input-cont">
-                        <input class="model-form-input" name="model_tel_input" type="tel">
-                        <svg class="model-form-input-svg">
-                            <use href="./images/icons.svg#icon-phone"></use>
-                        </svg>
-                    </div>
-                </label>
+                <label class="model-form-input-label" for="user-name">Name</label>
+                <div class="form-input-cont">
+                    <input class="model-form-input" name="user-name" id="user-name" type="text">
+                    <svg class="model-form-input-svg">
+                        <use href="./images/icons.svg#icon-person"></use>
+                    </svg>
+                </div>
 
-                <label class="model-form-input-label">Email
-                    <div class="form-input-cont">
-                        <input class="model-form-input" name="model_email_input" type="email">
-                        <svg class="model-form-input-svg">
-                            <use href="./images/icons.svg#icon-email"></use>
-                        </svg>
-                    </div>
-                </label>
+
+                <label class="model-form-input-label" for="user-tel">Phone</label>
+                <div class="form-input-cont">
+                    <input class="model-form-input" name="model_tel_input" id="user-tel" type="tel">
+                    <svg class="model-form-input-svg">
+                        <use href="./images/icons.svg#icon-phone"></use>
+                    </svg>
+                </div>
+
+
+                <label class="model-form-input-label" for="user-email">Email</label>
+                <div class="form-input-cont">
+                    <input class="model-form-input" name="model_email_input" id="user-email" type="email">
+                    <svg class="model-form-input-svg">
+                        <use href="./images/icons.svg#icon-email"></use>
+                    </svg>
+                </div>
+
                 <label class="model-form-input-label">Comment
                     <textarea class="model-form-textarea" name="model_comment_input"
                         placeholder="Text input"></textarea>
