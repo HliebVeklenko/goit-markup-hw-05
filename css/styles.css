@@ -724,8 +724,8 @@ button {
   fill: #2e2f42;
 }
 
-.close-svg:hover,
-.close-svg:focus {
+.close-button:hover > .close-svg,
+.close-button:focus > .close-svg {
   fill: #ffffff;
 }
 
