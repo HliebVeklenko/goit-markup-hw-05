@@ -828,7 +828,9 @@ button {
   letter-spacing: 0.04em;
 }
 
-.model-cont-checkbox:checked + .model-form-checkbox-border {
+.model-cont-checkbox:checked
+  + .model-cont-checkbox-text
+  > .model-form-checkbox-border {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
@@ -843,6 +845,8 @@ button {
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
+
+  margin-left: 95px;
 
   border: none;
 
@@ -862,7 +866,7 @@ button {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
-  /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input-form-cont {
@@ -923,9 +927,8 @@ button {
 }
 
 .model-form-checkbox-agreed-svg {
-  fill: var(--OCEAN, #404bbf);
   stroke-width: 1px;
-  stroke: var(--OCEAN, #404bbf);
+  stroke: transparent;
 }
 
 .model-form-textarea-cont {
