@@ -454,25 +454,27 @@
                     </div>
                 </div>
 
-                <label class="model-form-input-label">Comment
-                    <textarea class="model-form-textarea" name="model_comment_input"
+                <div class="model-form-textarea-cont">
+                    <label class="model-form-input-label" for="user-comment">Comment</label>
+                    <textarea class="model-form-textarea" name="user-comment" id="user-comment"
                         placeholder="Text input"></textarea>
-                </label>
+                </div>
                 <!--Privacy Policy-->
-                <label class="model-cont-checkbox-text">
-                    <input type="checkbox" class="model-cont-checkbox">
+                <div class="model-form-checkbox-cont">
+                    <label class="model-cont-checkbox-text" for="user-privacy">I accept the terms and conditions of the
+                        <a class="model-cont-checkbox-text-span" href="">Privacy Policy</a></label>
+                    <input type="checkbox" class="model-cont-checkbox" id="user-privacy">
                     <span class="model-form-checkbox-border">
                         <svg class="model-form-checkbox-agreed-svg" width="16px" height="16px">
                             <use href="./images/icons.svg#icon-agreed-mark"></use>
                         </svg>
                     </span>
-                    <!-- <svg class="model-form-checkbox-border-svg" width="16px" height="16px">
+                    <svg class="model-form-checkbox-border-svg" width="16px" height="16px">
                         <use href="./images/icons.svg#icon-checkbox-border"></use>
-                    </svg> -->
-                    I accept the terms and conditions of the
-                    <a class="model-cont-checkbox-text-span" href="">Privacy Policy</a>
+                    </svg>
 
-                </label>
+
+                </div>
                 <button class="model-form-btn"><span class="button-form-span">Send</span></button>
             </form>
         </div>
