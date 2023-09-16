@@ -882,8 +882,6 @@ button {
   fill: #2e2f42;
   z-index: 999;
 
-  width: 18px;
-  height: 18px;
   flex-shrink: 0;
   left: 16px;
 
