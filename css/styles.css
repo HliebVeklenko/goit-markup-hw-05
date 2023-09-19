@@ -406,7 +406,6 @@ button {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  text-align: center;
 }
 
 .fourth-section-list-item {
@@ -492,8 +491,6 @@ button {
 }
 
 .footer-field-content {
-  width: 294px;
-  height: 112px;
   flex-shrink: 0;
   margin-right: 120px;
 }
@@ -514,6 +511,8 @@ button {
 
 .footer-text {
   color: #f4f4fd;
+
+  max-width: 294px;
 
   font-size: 16px;
   font-style: normal;
@@ -586,8 +585,6 @@ button {
   padding: 8px 16px;
   line-height: 1.5;
 
-  margin-right: 24px;
-
   outline: transparent;
 
   border-radius: 4px;
@@ -614,7 +611,6 @@ button {
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
-  gap: 16px;
 
   border: none;
   border-radius: 4px;
@@ -745,8 +741,6 @@ button {
 .modal-cont-text {
   color: var(--NAVY-BLUE, #2e2f42);
   text-align: center;
-
-  margin-top: 48px;
 
   font-size: 16px;
   font-weight: 500;
